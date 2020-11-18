@@ -23,7 +23,7 @@
 		{
 			"type": "file",
 			"source": "/home/ubuntu/.jenkins/workspace/job2/calculator.jar",
-			"destination": "calculator.jar"
+			"destination": "/calculator.jar"
 		}	
 	],
 	"post-processors":[
