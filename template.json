@@ -30,7 +30,7 @@
 		[
 			{
 				"type": "docker-tag",
-				"repository": "aliceronascimento/temafinal",
+				"repository": "alicenascimento/temafinal",
 				"tag": "latest"
 			},
 			"docker-push"
