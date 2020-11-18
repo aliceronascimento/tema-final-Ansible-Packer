@@ -22,7 +22,7 @@
 		},
 		{
 			"type": "file",
-			"source": "/home/jenkins/workspace/job2/calculator.jar",
+			"source": "/home/ubuntu/.jenkins/workspace/job2/calculator.jar",
 			"destination": "calculator.jar"
 		}	
 	],
