@@ -1,0 +1,7 @@
+- name: Run ansbile on a Docker container
+  hosts: localhost
+  tasks:
+    - name: Install openjdk
+      apt:
+        name: openjdk-8-jdk
+        install_recommends: no
