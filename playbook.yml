@@ -1,3 +1,4 @@
+---
 - name: Run ansbile on a Docker container
   hosts: all
   become_user: root
