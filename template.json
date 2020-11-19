@@ -18,19 +18,19 @@
 		},
 		{
 			"type": "ansible-local",
-			"playbook_file": "playbook.yml"
+			"playbook_file": "/home/ubuntu/.jenkins/workspace/job2/playbook.yml"
 		},
 		{
 			"type": "file",
-			"source": "calculator.jar",
-			"destination": "/calculator.jar"
+			"source": "/home/ubuntu/.jenkins/workspace/job2/calculator.jar",
+			"destination": "calculator.jar"
 		}	
 	],
 	"post-processors":[
 		[
 			{
 				"type": "docker-tag",
-				"repository": "alicenascimento/tema-final-Ansible-Packer",
+				"repository": "alicenascimento/temafinal",
 				"tag": "latest"
 			},
 			"docker-push"
