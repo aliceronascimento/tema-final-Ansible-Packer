@@ -1,3 +1,4 @@
+---
 - name: ANSIBLE ON DOCKER CONTAINER
   hosts: all    
   become_user: root
