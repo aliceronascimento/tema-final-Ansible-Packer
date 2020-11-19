@@ -30,7 +30,7 @@
 		[
 			{
 				"type": "docker-tag",
-				"repository": "alicenascimento/temafinal",
+				"repository": "alicenascimento/tema-final-Ansible-Packer",
 				"tag": "latest"
 			},
 			"docker-push"
