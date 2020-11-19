@@ -6,7 +6,7 @@
 		"commit": true,
 		"changes": [
 			"EXPOSE 8083",
-			"ENTRYPOINT [\"java\", \"-jar\", \"calculator.jar\"]" ]
+			"ENTRYPOINT [\"java\", \"-jar\", \"/calculator.jar\"]" ]
 		}
 	],
 
