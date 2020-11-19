@@ -18,11 +18,11 @@
 		},
 		{
 			"type": "ansible-local",
-			"playbook_file": "/var/lib/jenkins/workspace/job2/playbook.yml"
+			"playbook_file": "/home/jenkins/workspace/job2/playbook.yml"
 		},
 		{
 			"type": "file",
-			"source": "/var/lib/jenkins/workspace/job2/temafinal1/calculator.jar",
+			"source": "/home/jenkins/workspace/job2/temafinal1/calculator.jar",
 			"destination": "calculator.jar"
 		}	
 	],
