@@ -1,6 +1,7 @@
 ---
 - name: Run ansbile on a Docker container
   hosts: all
+  become: yes    
   become_user: root
   tasks:
     - name: Install openjdk
