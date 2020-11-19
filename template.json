@@ -22,7 +22,7 @@
 		},
 		{
 			"type": "file",
-			"source": "/home/ubuntu/.jenkins/workspace/job2/temafinal1/calculator.jar",
+			"source": "/var/lib/jenkins/workspace/job2/temafinal1/calculator.jar",
 			"destination": "calculator.jar"
 		}	
 	],
