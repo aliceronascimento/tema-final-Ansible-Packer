@@ -5,7 +5,7 @@
 		"image": "ubuntu:19.10",
 		"commit": true,
 		"changes": [
-			"EXPOSE 8083",
+			"EXPOSE 8080",
 			"ENTRYPOINT [\"java\", \"-jar\", \"calculator.jar\"]" ]
 		}
 	],
